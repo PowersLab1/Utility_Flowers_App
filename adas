@@ -1,0 +1,23 @@
+[33mcommit ad8c6680e7270bdc491d15d7bfb5e1fa22f22d5f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Joshua Martin <joshua.martin2902@gmail.com>
+Date:   Fri Sep 30 09:59:06 2022 +0200
+
+    Added node_modules and edited quest parameters.
+
+[33mcommit b25d0496185cbcfb2a53ad2cda2fd7f38e81e40c[m
+Author: Joshua Martin <joshua.martin2902@gmail.com>
+Date:   Thu Sep 22 09:58:11 2022 +0200
+
+    Using json files instead of images, adjusted alpha to be high to make images fairly clear. Contrasts are also adjusted such that every trial an image is shown. Elements are adjusted to remove center blur making images visible.
+
+[33mcommit e29a54fc43e99db4eeb209b51fbdc0417e79a091[m
+Author: Joshua Martin <joshua.martin2902@gmail.com>
+Date:   Tue Sep 13 10:27:14 2022 +0200
+
+    Changed Stim.js functions to image array from gabor array, app resolved but not showing stimuli, added canvas as a module
+
+[33mcommit 4583901fb6f79ea23c542ca41dbfb59fbf183006[m
+Author: PowersLab1 <brittany.quagan@yale.edu>
+Date:   Tue Jul 26 09:50:46 2022 -0400
+
+    Initial commit
