@@ -143,13 +143,13 @@ export function processAndStoreData(q) {
   store[PROCESSED_DATA_KEY_3] = questlib.ProcessQuestData(q[3],q[3]);
   store[PROCESSED_DATA_KEY_4] = questlib.ProcessQuestData(q[4],q[4]);
   store[PROCESSED_DATA_KEY_5] = questlib.ProcessQuestData(q[5],q[5]);
-  store[PROCESSED_DATA_KEY_5] = questlib.ProcessQuestData(q[6],q[6]);
+  store[PROCESSED_DATA_KEY_6] = questlib.ProcessQuestData(q[6],q[6]);
 
   LocalStorageBackedStore.save();
 }
 
 export function getProcessedData() {
-  return [LocalStorageBackedStore.store[PROCESSED_DATA_KEY_1], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_2], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_3], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_4], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_5], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_3], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_4], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_6]];
+  return [LocalStorageBackedStore.store[PROCESSED_DATA_KEY_1], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_2], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_3], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_4], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_5], LocalStorageBackedStore.store[PROCESSED_DATA_KEY_6]];
   ;
 }
 
