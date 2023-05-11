@@ -40,7 +40,7 @@ export function createVisualStim() {
     frequency: 0,                  // gabor spatial frequency
   };
 
-  stim.group = 0;////Group assignment fixed to flowers
+  stim.group = 1;////Group assignment fixed to flowers
   stim.phase = stim.phases[Math.round(Math.random())];
   stim.frequency = 2 / stim.ppd;
 
