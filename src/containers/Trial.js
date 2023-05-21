@@ -186,7 +186,7 @@ class Trial extends Component {
     playAuditoryStimulus(auditoryStim, that.audioContext);
     }
     else {
-      this.changeFixationCross(160, 1660);////blue cue changed from 0ms at stimulus offset till 1.5s later
+      this.changeFixationCross(160, 1410);////blue cue changed from 0ms at stimulus offset till 1.25s later
     }
     
     that.playVisualStimulus(contrast, STIMULUS_MS, image_number);
